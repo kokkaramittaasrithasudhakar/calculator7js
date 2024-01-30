@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <title>Calculator </title>
+  <link rel="stylesheet" href="cal.css">
+  <script type="text/javascript" src="cal.js"></script>
+</head>
+<body>
+<h1 style="text-align:center;">Calculator</h1>
+<table class="calculator" ><!--apply css to create calculator border-->
+<!--row1-->
+  <tr><!--row1-->
+    <td colspan="4"> <input class="calculation-box" type="text" id="result" /> </td>
+  </tr>
+<!--row2-->
+  <tr><!-- display() function displays the value of clicked button -->
+    <td> <input type="button" value="%" onclick="display('%')" /> </td>
+    <td> <input type="button" value="CE" onclick="clearOne()" /> </td>
+	<!-- clearScreen() function clears all the values -->
+	<td> <input type="button" value="C" onclick="clearScreen()" class="btn" /> </td>
+    <td> <input type="button" value="x" onclick="clearOne()" /> </td>
+  </tr>
+  <tr><!--row3-->
+    <td> <input type="button" value="7" onclick="display('7')" /> </td>
+    <td> <input type="button" value="8" onclick="display('8')" /> </td>
+    <td> <input type="button" value="9" onclick="display('9')" /> </td>
+    <td> <input type="button" value="*" onclick="display('*')" /> </td>
+  </tr>
+  <tr><!--row4-->
+    <td> <input type="button" value="4" onclick="display('4')" /> </td>
+    <td> <input type="button" value="5" onclick="display('5')" /> </td>
+    <td> <input type="button" value="6" onclick="display('6')" /> </td>
+    <td> <input type="button" value="-" onclick="display('-')" /> </td>
+  </tr>
+  <tr><!--row5-->
+    <td> <input type="button" value="1" onclick="display('1')" /> </td>
+    <td> <input type="button" value="2" onclick="display('2')" /> </td>
+    <td> <input type="button" value="3" onclick="display('3')" /> </td>
+    <td> <input type="button" value="+" onclick="display('+')" /> </td>
+  </tr>
+  <tr><!--row6-->
+    <td> <input type="button" value="0" onclick="display('0')" /> </td>
+    <td> <input type="button" value="." onclick="display('.')" /> </td>
+	<td> <input type="button" value="/" onclick="display('/')" /> </td>
+    <!-- calculate() function evaluates the mathematical expression -->
+    <td> <input type="button" value="=" onclick="calculate()" class="btn" /> </td>
+  </tr>
+</table>
+</body>
+</html>

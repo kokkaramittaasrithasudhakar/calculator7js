@@ -1,0 +1,36 @@
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: 	#008080
+	/*#FF9999;*/
+	/*#FFC6AC; table background*/
+    
+}
+
+.calculation-box{
+    background-color: #FFE5CC;
+	/*#FAF0D7;*/
+    border-radius: 5px;
+    width: 98.7%;
+    height: 65%;
+}
+
+.btn {
+    background-color:#42f5e3 
+	/*#F2EE9D;*/
+}
+
+input {
+    font-family: sans-serif;
+    background-color: #CCFFFF;
+	/*#CCCCCC; #CCEEBC;*/
+    color: black;
+    border:1px solid transparent ;
+    border-radius: 5px;
+	width: 100%;
+    height: 70%;
+}
+
